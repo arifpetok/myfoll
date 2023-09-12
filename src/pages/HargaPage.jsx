@@ -18,17 +18,12 @@ const HargaPage = () => {
             <p className="text-center">Pilih dan klik layanan yang ingin anda pesan</p>
 
           <img src={Tik1} className='img-fluid' alt="layanan-hitz" />
-          <Button variant="success"  className='my-3 '>
-            Klik Disini Untuk Pesan
-          </Button>
+          <a href="https://api.whatsapp.com/send?phone=6288238334537&text=Hallo+kaka+saya+mau+beli+*Followers%2C+Likes+TikTok*+%2C+Apakah+Masih+PROMO%3F" className='btn btn-succes my-button mt-3' target='_blank'>Klik Disini Untuk Pesan</a>
+          
           <img src={Tik2} className='img-fluid' alt="layanan-hitz" />
-          <Button variant="success"  className='my-3 '>
-            Klik Disini Untuk Pesan
-          </Button>
+          <a href="https://api.whatsapp.com/send?phone=6288238334537&text=Hallo+kaka+saya+mau+beli+*Followers%2C+Likes+TikTok*+%2C+Apakah+Masih+PROMO%3F" className='btn btn-succes my-button mt-3' target='_blank'>Klik Disini Untuk Pesan</a>
           <img src={Tik3} className='img-fluid' alt="layanan-hitz" />
-          <Button variant="success"  className='my-3 '>
-            Klik Disini Untuk Pesan
-          </Button>
+          <a href="https://api.whatsapp.com/send?phone=6288238334537&text=Hallo+kaka+saya+mau+beli+*Followers%2C+Likes+TikTok*+%2C+Apakah+Masih+PROMO%3F" className='btn btn-succes my-button mt-3' target='_blank'>Klik Disini Untuk Pesan</a>
           </Col>
         </Row>
 
@@ -39,17 +34,11 @@ const HargaPage = () => {
             <p className="text-center">Pilih dan klik layanan yang ingin anda pesan</p>
 
           <img src={ig1} className='img-fluid' alt="layanan-hitz" />
-          <Button variant="success"  className='my-3 '>
-            Klik Disini Untuk Pesan
-          </Button>
+          <a href="https://api.whatsapp.com/send?phone=6288238334537&text=Hallo+kaka+saya+mau+beli+*Followers%2C+Likes+Instagram*+%2C+Apakah+Masih+PROMO%3F" className='btn btn-succes my-button mt-3' target='_blank'>Klik Disini Untuk Pesan</a>
           <img src={ig2} className='img-fluid' alt="layanan-hitz" />
-          <Button variant="success"  className='my-3 '>
-            Klik Disini Untuk Pesan
-          </Button>
+          <a href="https://api.whatsapp.com/send?phone=6288238334537&text=Hallo+kaka+saya+mau+beli+*Followers%2C+Likes+Instagram*+%2C+Apakah+Masih+PROMO%3F" className='btn btn-succes my-button mt-3' target='_blank'>Klik Disini Untuk Pesan</a>
           <img src={ig3} className='img-fluid' alt="layanan-hitz" />
-          <Button variant="success"  className='my-3 '>
-            Klik Disini Untuk Pesan
-          </Button>
+          <a href="https://api.whatsapp.com/send?phone=6288238334537&text=Hallo+kaka+saya+mau+beli+*Followers%2C+Likes+Instagram*+%2C+Apakah+Masih+PROMO%3F" className='btn btn-succes my-button mt-3' target='_blank'>Klik Disini Untuk Pesan</a>
         </Col>
         </Row>
 
