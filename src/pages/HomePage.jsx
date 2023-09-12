@@ -1,9 +1,8 @@
-import {Container,Row,Col,Button} from 'react-bootstrap';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 
-import HeroImg from '../assets/pricelist-socmed.png'
-import Arrow from "../assets/arrow.gif";
-
+import HeroImg from '../assets/pricelist-socmed.png';
+import Arrow from '../assets/arrow.gif';
 
 const HomePage = () => {
   let navigate = useNavigate();
@@ -11,20 +10,27 @@ const HomePage = () => {
   return (
     <Container>
       <Row className='justify-content-md-center'>
-         <Col md={6} className='text-center'>
-          <img src={HeroImg} className='img-fluid' alt="hero-img" />
-          <img src={Arrow} className='arrow' alt="arrow-img" />
-          <Button variant="success" onClick={() => navigate("/harga")} className='my-1'>
+        <Col md={6} className='text-center'>
+          <img src={HeroImg} className='img-fluid' alt='hero-img' />
+          <img src={Arrow} className='arrow' alt='arrow-img' />
+          <Button
+            variant='success'
+            onClick={() => navigate('/harga')}
+            className='my-1'
+          >
             Klik Disini Untuk Daftar Harga & Pemesanan
           </Button>
-          <Button variant="info" onClick={() => navigate("/testi")} className='my-1'>
+          <Button
+            variant='info'
+            onClick={() => navigate('/testi')}
+            className='my-1'
+          >
             Klik Disini Untuk Testimoni
           </Button>
-
-         </Col>
+        </Col>
       </Row>
-    </Container> 
-  )
-}
+    </Container>
+  );
+};
 
-export default HomePage
+export default HomePage;
